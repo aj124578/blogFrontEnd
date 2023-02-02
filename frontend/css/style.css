@@ -1,0 +1,16 @@
+.my-text-ellipsis {
+    white-space: nowrap; /* 글자가 박스 넘어가도 ㄱㅊ*/
+    overflow: hidden;   /* 오버플로우 된걸 안보이게 함 */
+    text-overflow: ellipsis;  /* 오버플로우 된거를 ...으로 만들어줌 */
+}
+
+.my-grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; /* 사진 양옆이 아니라 사이에만 margin이 들어감 */
+}
+
+.my-grid-5 {
+    flex-basis: 20%;
+    /* 사진 양옆이 아니라 사이에만 margin이 들어감 */
+}
